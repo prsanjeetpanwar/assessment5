@@ -10,19 +10,18 @@ const ProductCard = ({ product }) => {
         <CiTimer />
         Pending
       </div>
-
-      {/* Product Image */}
+\
       <img
         src={product.image}
         alt={product.name}
         className="w-1/4 h-full object-cover mb-4 float-left mr-4"
       />
 
-      {/* Product Name */}
+    
       <h2 className="text-lg font-semibold mb-2 mt-2 text-left">{product.name}</h2>
       <h6>Bar Code ID:1</h6>
 
-      {/* Price */}
+     
       <div className="text-left">
         <div className="flex items-center justify-start mb-2">
           <span className="text-sm font-bold text-black">₹{product.price}</span>
@@ -32,7 +31,7 @@ const ProductCard = ({ product }) => {
         </div>
       </div>
 
-      {/* Buttons and TfiWrite in the same row */}
+     
       <div className="flex justify-between items-center mt-2">
         <button className="bg-black text-white px-3 py-1 rounded border border-black hover:bg-white hover:text-black mr-2">
           Promotion
@@ -41,7 +40,6 @@ const ProductCard = ({ product }) => {
           Promote Online
         </button>
 
-        {/* Custom Button (Assuming TfiWrite is your custom button component) */}
         <div className="bg-white p-2 border-[1px] border-black">
           <TfiWrite />
         </div>

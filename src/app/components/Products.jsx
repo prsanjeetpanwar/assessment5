@@ -1,19 +1,19 @@
-import React from 'react';
+import React from 'react'
 
 const Products = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 mt-5 pl-4'>
-      <button className='bg-purple-500 rounded-3xl h-9 md:pl-9 md:pr-9 lg:pl-12 lg:pr-12'>
-        Products-4
-      </button>
-      <button className='bg-purple-200 rounded-3xl h-9 md:pl-7 md:pr-7 lg:pl-9 lg:pr-9'>
-        Promotions-4
-      </button>
-      <button className='bg-purple-200 rounded-3xl h-9 md:pl-7 md:pr-7 lg:pl-9 lg:pr-9'>
-        Online Promotions-4
-      </button>
-    </div>
-  );
-};
+    <div className='grid-cols-3 mt-5 space-x-4 pl-4' >
+  <button className='bg-purple-500 rounded-3xl
+  h-9 pl-9 pr-9  
+  '> Products-4</button>
+  <button className='bg-purple-200 rounded-3xl
+  h-9 pl-7 pr-7 '> Promotions-4</button>
+  <button className='bg-purple-200 rounded-3xl
+  h-9 pl-7 pr-7 '> Online Promotions-4</button>
 
-export default Products;
+
+    </div>
+  )
+}
+
+export default Products
